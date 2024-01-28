@@ -1,8 +1,9 @@
 import React from "react";
+import s from './ProfilePage.module.css';
 
 const ProfilePage = () => {
     return (
-        <div className='app-content'>
+        <div className={s.app_content}>
             main content
         </div>
     )

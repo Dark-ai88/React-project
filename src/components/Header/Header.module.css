@@ -1,0 +1,24 @@
+.app_header {
+    grid-area: h;
+    display: grid;
+    grid-template-columns: 65px 2fr;
+    align-items: center;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    height: 50px;
+}
+
+.app_header img {
+    width: 40px;
+    background-color: rgb(107, 107, 107);
+    position: relative;
+    left: 10px;
+}
+
+.app_header_textLogo {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(107, 107, 107);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

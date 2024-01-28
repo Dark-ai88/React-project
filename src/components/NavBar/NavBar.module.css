@@ -1,0 +1,11 @@
+.app_nav {
+    margin: 10px;
+    grid-area: n;
+}
+
+.app_nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
