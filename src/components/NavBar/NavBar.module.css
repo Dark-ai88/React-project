@@ -1,11 +1,25 @@
 .app_nav {
-    margin: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
     grid-area: n;
+    background-color: rgb(107, 107, 107);
 }
 
 .app_nav a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 16px;
+}
 
+.app_item_link {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 35px auto;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.app_item_link img {
+    width: 30px;
 }

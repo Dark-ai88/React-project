@@ -4,7 +4,9 @@ import s from './ProfilePage.module.css';
 const ProfilePage = () => {
     return (
         <div className={s.app_content}>
-            main content
+            <div className={s.app_item_content}>
+                ava + discription
+            </div>
         </div>
     )
 };
