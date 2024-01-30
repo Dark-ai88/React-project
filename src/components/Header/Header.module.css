@@ -3,14 +3,12 @@
     display: grid;
     grid-template-columns: 65px 2fr;
     align-items: center;
-    background-color: rgb(107, 107, 107);
-    border-radius: 10px;
+    background-color: rgb(80, 80, 80);
     height: 50px;
 }
 
 .app_header img {
     width: 40px;
-    background-color: rgb(107, 107, 107);
     position: relative;
-    left: 15px;
+    left: 362px;
 }

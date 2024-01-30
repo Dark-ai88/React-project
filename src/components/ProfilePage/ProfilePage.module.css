@@ -1,8 +1,10 @@
 .app_content {
     grid-area: c;
-    border: 1px solid rgb(107, 107, 107);
+    border: 1px solid rgb(80, 80, 80);
+    ;
     border-radius: 7px;
     margin: 5px 0px 0px 5px;
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(80, 80, 80);
+    ;
     color: #fff;
 }

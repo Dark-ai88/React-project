@@ -5,10 +5,14 @@ import ProfilePage from './components/ProfilePage/ProfilePage';
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <NavBar />
-      <ProfilePage />
+    <div>
+      <div className="app-header">
+        <Header />
+      </div>
+      <div className="app">
+        <NavBar />
+        <ProfilePage />
+      </div>
     </div>
   );
 }
