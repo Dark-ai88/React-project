@@ -4,14 +4,9 @@ import s from './Post.module.css';
 const Post = () => {
     return (
         <div className={s.app_post}>
-            <div>
-                post 1
-            </div>
-            <div>
-                post 2
-            </div>
-            <div>
-                post 3
+            <div className={s.app_post_item}>
+                <img src="https://cdn-icons-png.flaticon.com/128/11520/11520091.png" alt="" />
+                <p className={s.app_post_text}>Post 1</p>
             </div>
         </div>
     )
