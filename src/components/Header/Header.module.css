@@ -4,11 +4,13 @@
     grid-template-columns: 65px 2fr;
     align-items: center;
     background-color: rgb(80, 80, 80);
+    border: 1px solid rgb(114, 114, 114);
     height: 50px;
+    border-radius: 8px;
 }
 
 .app_header img {
     width: 40px;
     position: relative;
-    left: 358px;
+    left: 10px;
 }

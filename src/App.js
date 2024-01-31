@@ -6,10 +6,8 @@ import ProfilePage from './components/ProfilePage/ProfilePage';
 function App() {
   return (
     <div>
-      <div className="app-header">
-        <Header />
-      </div>
       <div className="app">
+        <Header />
         <NavBar />
         <ProfilePage />
       </div>
