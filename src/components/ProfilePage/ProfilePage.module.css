@@ -6,4 +6,37 @@
     background-color: rgb(119, 119, 119);
     color: #fff;
     padding: 10px 0px 0px 10px;
+    line-height: 25px;
+}
+
+.app_button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+    background-color: #2196F3;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    left: 438px;
+}
+
+.app_textForm {
+    width: 500px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 3px 0px 0px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.app_item_Post {
+    padding-top: 5px;
+    display: grid;
+    grid-template-rows: 70px 45px;
+    align-items: center;
+}
+
+.app_My_Post {
+    text-decoration: none;
 }

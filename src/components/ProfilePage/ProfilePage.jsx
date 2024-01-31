@@ -8,9 +8,10 @@ const ProfilePage = () => {
                 ava + discription
             </div>
             <div>
-                My post
-                <div>
-                    New post
+                <p className={s.app_My_Post}>My post</p>
+                <div className={s.app_item_Post}>
+                    <textarea className={s.app_textForm}></textarea>
+                    <button className={s.app_button}>send</button>
                 </div>
                 <div>
                     <div>
