@@ -1,8 +1,9 @@
 import React from "react";
+import s from './Post.module.css';
 
 const Post = () => {
     return (
-        <div>
+        <div className={s.app_post}>
             <div>
                 post 1
             </div>
