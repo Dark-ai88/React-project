@@ -10,7 +10,7 @@ const MyPost = () => {
                 <textarea className={s.app_textForm}></textarea>
                 <button className={s.app_button}>send</button>
             </div>
-            <Post />
+            <Post likeCount='23' />
         </div>
     )
 };
