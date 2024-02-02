@@ -1,3 +1,40 @@
 .app_message {
     font-weight: normal;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.app_users {
+    font-size: 20px;
+}
+
+.app_users a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.app_users a:hover {
+    color: #cccccc;
+}
+
+.app_item {
+    font-size: 18px;
+}
+
+.app_link_users {
+    line-height: 30px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 7px;
+    padding: 5px 0px 0px 10px;
+    margin: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.app_item_message {
+    line-height: 30px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 7px;
+    padding: 5px 0px 0px 10px;
+    margin: 5px 0px 0px 5px;
+    color: #fff;
 }

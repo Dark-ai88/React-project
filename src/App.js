@@ -14,15 +14,13 @@ function App() {
       <div className="app">
         <Header />
         <NavBar />
-        <div className='app-wrapper'>
-          <Routes>
-            <Route path='/profile' element={<ProfilePage />} />
-            <Route path='/message' element={<MessagePage />} />
-            <Route path='/news' element={<NewsPage />} />
-            <Route path='/music' element={<MusicPage />} />
-            <Route path='/settings' element={<SettingsPage />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path='/profile' element={<ProfilePage />} />
+          <Route path='/message/*' element={<MessagePage />} />
+          <Route path='/news' element={<NewsPage />} />
+          <Route path='/music' element={<MusicPage />} />
+          <Route path='/settings' element={<SettingsPage />} />
+        </Routes>
       </div>
     </div>
   );
