@@ -8,7 +8,7 @@ import NewsPage from './components/NewsPage/NewsPage';
 import MusicPage from './components/MusicPage/MusicPage';
 import SettingsPage from './components/SettingsPage/SettingsPage';
 
-function App() {
+function App(props) {
   return (
     <div>
       <div className="app">
@@ -16,7 +16,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/profile' element={<ProfilePage />} />
-          <Route path='/message/*' element={<MessagePage />} />
+          <Route path='/message/*' element={<MessagePage state={props.state} />} />
           <Route path='/news' element={<NewsPage />} />
           <Route path='/music' element={<MusicPage />} />
           <Route path='/settings' element={<SettingsPage />} />
