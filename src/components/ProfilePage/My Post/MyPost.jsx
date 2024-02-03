@@ -2,7 +2,7 @@ import React from "react";
 import s from './MyPost.module.css';
 import Post from "./Post/Post";
 
-const MyPost = () => {
+const MyPost = (props) => {
     return (
         <div>
             <p className={s.app_My_Post}>My post</p>
@@ -10,7 +10,7 @@ const MyPost = () => {
                 <textarea className={s.app_textForm}></textarea>
                 <button className={s.app_button}>send</button>
             </div>
-            <Post likeCount='23' />
+            <Post state={props.state} />
         </div>
     )
 };

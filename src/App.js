@@ -15,7 +15,7 @@ function App(props) {
         <Header />
         <NavBar />
         <Routes>
-          <Route path='/profile' element={<ProfilePage />} />
+          <Route path='/profile' element={<ProfilePage state={props.state} />} />
           <Route path='/message/*' element={<MessagePage state={props.state} />} />
           <Route path='/news' element={<NewsPage />} />
           <Route path='/music' element={<MusicPage />} />

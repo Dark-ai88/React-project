@@ -1,14 +1,13 @@
 import React from "react";
 import s from './ProfilePage.module.css';
 import MyPost from "./My Post/MyPost";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const ProfilePage = () => {
+const ProfilePage = (props) => {
     return (
         <div className={s.app_content}>
-            <div>
-                ava + discription
-            </div>
-            <MyPost />
+            <ProfileInfo />
+            <MyPost state={props.state} />
         </div>
     )
 };

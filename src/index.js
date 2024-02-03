@@ -14,8 +14,13 @@ let state = {
   ],
   messageItem: [
     { id: 1, message: 'Hi, my name is Alex' },
-    { id: 1, message: 'I learn React.' },
-    { id: 1, message: 'And this cool' },
+    { id: 2, message: 'I learn React.' },
+    { id: 3, message: 'And this cool' },
+  ],
+  postData: [
+    { id: 1, postMessage: 'Hi, you learn React?', like: 12 },
+    { id: 2, postMessage: 'Hi everyone, how are you doing?', like: 32 },
+    { id: 3, postMessage: 'I want you to succeed.', like: 54, },
   ]
 };
 
