@@ -10,7 +10,7 @@ const MyPost = (props) => {
                 <textarea className={s.app_textForm}></textarea>
                 <button className={s.app_button}>send</button>
             </div>
-            <Post state={props.state} />
+            <Post state={props.state.profilePage} />
         </div>
     )
 };
